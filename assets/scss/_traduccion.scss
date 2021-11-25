@@ -15,6 +15,15 @@
     text-shadow: $textShadow;
 }
 
+.general__h3 {
+    font-size: 1.5em;
+    color: #a488bc;
+}
+
+.general__p {
+    font-size: $textP;
+}
+
 #divImgTrad1, #divImgTrad2, #divImgTrad3, #divImgTrad4 {
     @include borderShadow;
     width: 85%;

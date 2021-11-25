@@ -8368,6 +8368,13 @@ footer {
   font-family: 'lora', serif;
   text-shadow: 5px 5px 10px #000; }
 
+.general__h3 {
+  font-size: 1.5em;
+  color: #a488bc; }
+
+.general__p {
+  font-size: 1.1em; }
+
 #divImgTrad1, #divImgTrad2, #divImgTrad3, #divImgTrad4 {
   border-style: 1px solid black;
   border-radius: 4px;
@@ -8469,6 +8476,9 @@ footer {
 .tiposInt {
   color: #fff;
   background-color: #2e3842; }
+
+.contenedor1__h3, .contenedor2__h3, .contenedor3__h3 {
+  color: #a488bc; }
 
 .contenedor1__p, .contenedor2__p, .contenedor3__p {
   font-size: 1.1em; }
