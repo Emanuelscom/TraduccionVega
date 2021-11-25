@@ -1,0 +1,35 @@
+// Pagina de error
+.imgError {
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#text_error {
+    font-family: $secondFont;
+    color: #8783dc;
+    text-shadow: $textBorder;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+    .imgError{
+        width: 55%;
+        margin: 4vh 0;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .imgError{
+        width: 70%;
+        margin: 4vh 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .imgError{
+        width: 100%;
+        margin: 6vh 0;
+    }
+}

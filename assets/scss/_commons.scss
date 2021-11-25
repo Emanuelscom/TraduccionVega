@@ -1,0 +1,99 @@
+// globales
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lora', serif;
+}
+
+// Colores
+$primary:       #3372e2;
+$secondary:     #bf05de;
+$success:       #84358d;
+$info:          #2e3842;
+$warning:       #a84094;
+$danger:        #06d8bc;
+$light:         #f7f3fd;
+$dark:          #5f06aa;
+$textShadow:    5px 5px 10px #000;
+$textBorder:    2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+// medidas
+$em-1: 1em;
+$em-2: 2em;
+$vh-1: 1vh;
+$vh-2: 2vh;
+
+// sizing
+$w-10: 10%;
+$w-25: 25%;
+$w-50: 50%;
+$w-100: 100%;
+$imgSmall: 96px;
+
+// mixin padding y margin
+@mixin p-m($relleno, $margen){
+    padding: $relleno;
+    margin: $margen;
+}
+
+@mixin borderShadow {
+    border-style: 1px solid black;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 13px 2px #000000; 
+    box-shadow: 0px 0px 13px 2px #000000;
+    border-width: 0.5rem;
+    border-color: black;
+    box-sizing: border-box;
+}
+
+// Button
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:200px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#337bc4;
+    font-weight:bold;
+    border-radius: 5px;
+    box-shadow: 3px 4px 0px 0px #1564ad;
+    text-shadow: 0px 1px 0px #528ecc;
+    background:linear-gradient(#79bbff, #378de5);
+}
+
+.buttonClass:hover {
+    background: linear-gradient(#378de5, #79bbff);
+}
+
+.more {
+    transition: transform 1s ease, opacity 1s ease;
+    transition-delay: 5s;
+}
+
+// scrolls
+#scroll1{
+    margin-top: 53vh;
+}
+
+#scroll2 {
+    margin-top: 61vh;
+}
+
+#scroll3 {
+    margin-top: 50vh;
+}
+
+#scroll4 {
+    margin-top: 61vh;
+}
+
+@media only screen and (max-width: 576px) {
+    #scroll2{
+        margin-top: 63vh;
+    }
+
+    #scroll4 {
+        margin-top: 56vh;
+    }
+}

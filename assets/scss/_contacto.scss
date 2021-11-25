@@ -1,0 +1,234 @@
+.headerCont__h1--titlePrimary {
+    color: $warning;
+    text-align: center;
+    font-weight: 700;
+    font-size: 5em;
+    font-family: 'lora', serif;
+    text-shadow: $textShadow;
+}
+
+.bodyContacto {
+    background-image: url(../img/fondo_Contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4% 0;
+    width: $w-100;
+}
+
+.section1__form {
+    width: 70%;
+    font-size: 2rem;
+}
+
+.fieldContacto {
+    @include borderShadow;
+    width: $w-100;
+    display: grid;
+    grid-template-rows: 6;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgba(190, 190, 190, 0.7);
+}
+
+.headerCont__p {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.section1__input--w90 {
+    width: 90%;
+    outline: 0;
+    border: 1px solid  #64669d ;
+    border-style: double;
+    border-width: 0.3em;
+    background: transparent;
+    font-size: 0.6em;
+}
+
+.section1__input--w99 {
+    width: 99%;
+    outline: 0;
+    border: 1px solid  #64669d ;
+    border-style: double;
+    border-width: 0.3em;
+    background: transparent;
+    font-size: 0.6em;
+}
+
+.inText {
+    display: flex;
+    justify-content: center;
+}
+
+.inText1 {
+    display: flex;
+    justify-content: center;
+    padding: 0 3vh
+}
+
+.section1__label--dark {
+    padding-left: 5%;
+    color: rgb(0, 0, 0);
+    cursor: text;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 4.5vh;
+}
+
+.section1__input--file {
+    font-size: 2vh;
+}
+
+.divInput1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.divInput2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.divInput3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    margin-top: 1vh;
+}
+
+.divInput4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    margin-top: 1vh;
+}
+
+.divInput5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    margin-top: 1vh;
+}
+
+.divInput6 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    margin-top: 1vh;
+}
+
+.divInput7 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    padding: 0 10%;
+}
+
+.divInput8 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+}
+
+.divInputBot {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-evenly;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+}
+
+.section1__button--reset, .section1__button--submit {
+    width: 40%;
+    cursor: pointer;
+    margin-bottom: 1vh;
+    font-weight: 400;
+    font-size: 1.7vh;
+}
+
+@media only screen and (max-width: 991px) {
+    .headerCont__h1--titlePrimary {
+        font-size: 2.4em;
+    }
+    .headerCont__p {
+        font-size: 1em;
+    }
+    .section1__input--file {
+        font-size: 2vh;
+    }
+
+    .section1__input--file {
+        font-size: 1.5vh;
+    }
+
+    .divInput1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .divInput2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+    }
+    
+    .divInput3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+    }
+    
+    .divInput4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+    }
+    
+    .divInput5 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+    }
+    
+    .divInput6 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+    }
+    
+    .divInput7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        padding: 0;
+    }
+
+    .divInput8 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+    }
+
+    .divInputBot {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .section1__input--file {
+        font-size: 1.5vh;
+    }
+    
+    .section1__form {
+        width: 85%;
+    }
+}
