@@ -70,30 +70,3 @@ $imgSmall: 96px;
     transition: transform 1s ease, opacity 1s ease;
     transition-delay: 5s;
 }
-
-// scrolls
-#scroll1{
-    margin-top: 53vh;
-}
-
-#scroll2 {
-    margin-top: 61vh;
-}
-
-#scroll3 {
-    margin-top: 50vh;
-}
-
-#scroll4 {
-    margin-top: 61vh;
-}
-
-@media only screen and (max-width: 576px) {
-    #scroll2{
-        margin-top: 63vh;
-    }
-
-    #scroll4 {
-        margin-top: 56vh;
-    }
-}

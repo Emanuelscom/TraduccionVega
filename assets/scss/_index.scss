@@ -93,79 +93,18 @@
     padding-bottom: 1em;
 }
 
+    // QUERY +992px
+    @media only screen and (min-width: 992px) {
+        .anim-typewriter {
+            font-size: 2.5vh;
+        }
 
-// QUERY 576px
-@media only screen and (max-width: 576px) {
-    .index__h1--titlePrimary {
-        font-size: 2.4em;
-    }
-    
-    .anim-typewriter {
-        display: none;
-    }
+        #contenedorSect {
+            margin: 0;
+        }
+        }
 
-    .caja1__h2{
-        font-size: 1.2em;
-    }
-
-    .caja1__parrafo {
-        font-size: 0.8em;
-    }
-
-    .formIndex {
-        width: 80%;
-    }
-
-    .form1__h3, .form-label, .form-control {
-        margin: 0;
-    }
-
-    .form1 {
-        padding-top: 4vh;
-    }
-
-    .aptitudes__h3 {
-        font-size: 1.4em;
-    }
-
-    .aptitudes__parrafo {
-        font-size: 1em;
-    }
-
-    .h4Footer {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 672px) {
-    .anim-typewriter {
-        display: none;
-    }
-}
-
-// QUERY 577-768px
-@media only screen and (max-width: 768px) {
-#scroll1 {
-    margin-top: 57vh;
-}
-
-#caja1 {
-    height: 20%;
-}
-
-.h4Footer {
-    font-size: 0.5em;
-}
-.h4Copyright {
-    font-size: 0.5em;
-}
-
-#contenedorSect {
-    padding: 2% 4%;
-}
-}
-
-// QUERY 769-991px
+        // QUERY 769-991px
 @media only screen and (max-width: 991px) {
     .nav-links li a:before {
         display: none;
@@ -205,30 +144,70 @@
         justify-items: center;
         margin: 2% 0;
     }
-    
-    .h4Footer {
-        font-size: 0.8em;
+
+    .formIndex {
+        width: 70%;
     }
-    .h4Copyright {
-        font-size: 0.8em;
-    }
-    
     }
 
-    // QUERY +992px
-    @media only screen and (min-width: 992px) {
+    // QUERY 577-768px
+@media only screen and (max-width: 768px) {
+    .index__h1--titlePrimary {
+        font-size: 4em;
+    }
+    #caja1 {
+        height: 20%;
+    }
+    #contenedorSect {
+        padding: 2% 4%;
+    }
+    }
+
+    @media only screen and (max-width: 672px) {
         .anim-typewriter {
-            font-size: 2.5vh;
+            display: none;
         }
+    
+        .aptitudes {
+            margin: 5% 0;
+        }
+    }
 
-        #contenedorSect {
-            margin: 0;
-        }
+    // QUERY 576px
+@media only screen and (max-width: 576px) {
+    .index__h1--titlePrimary {
+        font-size: 2.4em;
+    }
+    
+    .anim-typewriter {
+        display: none;
+    }
 
-        .h4Footer {
-            font-size: 1em;
-        }
-        .h4Copyright {
-            font-size: 1em;
-        }
-        }
+    .caja1__h2{
+        font-size: 1.2em;
+    }
+
+    .caja1__parrafo {
+        font-size: 0.8em;
+    }
+
+    .formIndex {
+        width: 80%;
+    }
+
+    .form1__h3, .form-label, .form-control {
+        margin: 0;
+    }
+
+    .form1 {
+        padding-top: 4vh;
+    }
+
+    .aptitudes__h3 {
+        font-size: 1.4em;
+    }
+
+    .aptitudes__parrafo {
+        font-size: 1em;
+    }
+}
