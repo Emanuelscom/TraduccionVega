@@ -49,16 +49,17 @@
     grid-row-start: 3;
 }
 
-.faqImg {
-    width: 80%;
-    border-radius: 3%;
-}
-
 .accordion-body {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(250, 250, 250);
 }
 
+.h2Acord {
+    border-left: 8px solid #2c42dd;
+}
 
+.pAcord {
+    border-left: 8px solid #84b2e8;
+}
 // @media only screen and (max-width: 768px) {
 
 // }

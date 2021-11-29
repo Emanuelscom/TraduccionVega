@@ -8208,23 +8208,13 @@ footer {
   background: transparent;
   font-size: 0.6em; }
 
-.section1__input--w99 {
-  width: 99%;
-  outline: 0;
-  border: 1px solid  #64669d;
-  border-style: double;
-  border-width: 0.3em;
-  background: transparent;
-  font-size: 0.6em; }
-
 .inText {
   display: flex;
   justify-content: center; }
 
 .inText1 {
   display: flex;
-  justify-content: center;
-  padding: 0 3vh; }
+  justify-content: center; }
 
 .section1__label--dark {
   padding-left: 5%;
@@ -8599,12 +8589,14 @@ footer {
 .imgDiv3 {
   grid-row-start: 3; }
 
-.faqImg {
-  width: 80%;
-  border-radius: 3%; }
-
 .accordion-body {
-  background-color: whitesmoke; }
+  background-color: #fafafa; }
+
+.h2Acord {
+  border-left: 8px solid #2c42dd; }
+
+.pAcord {
+  border-left: 8px solid #84b2e8; }
 
 @media only screen and (max-width: 576px) {
   .headerFaq .headerFaq__h1--titlePrimary {
