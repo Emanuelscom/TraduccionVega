@@ -8429,9 +8429,7 @@ footer {
 
 #tituloNuestro, #tituloTiposInt {
   font-weight: 700;
-  font-size: 3em; }
-
-#tituloNuestro, .div1__h2 {
+  font-size: 3em;
   border-bottom: solid 2px #fff;
   padding-bottom: 1em;
   margin: 0 20%; }
@@ -8451,7 +8449,7 @@ footer {
   padding: 0 5%; }
 
 .pInter {
-  margin: 0;
+  margin-top: 2%;
   font-size: 1.5em;
   padding: 1% 20% 1% 20%;
   text-align: center; }
@@ -8510,8 +8508,7 @@ footer {
     height: 100%;
     padding-bottom: 5%; }
     #divNuestrosServ .pInter {
-      padding: 0 10%;
-      margin: 0; }
+      padding: 0 10%; }
   .div1__parrafo {
     padding: 0 10%; }
   .tiposInt__div2 {
