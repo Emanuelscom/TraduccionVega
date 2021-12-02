@@ -8411,7 +8411,7 @@ footer {
       text-align: center; } }
 
 #bodyInt {
-  height: auto; }
+  height: 100%; }
 
 .headerInt {
   background-image: url(../img/fondo_Interpretacion.jpg);
