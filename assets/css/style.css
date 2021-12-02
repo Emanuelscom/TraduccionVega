@@ -8410,9 +8410,6 @@ footer {
     #divImgTrad1 h3, #divImgTrad1 .h3, #divImgTrad2 h3, #divImgTrad2 .h3, #divImgTrad3 h3, #divImgTrad3 .h3, #divImgTrad4 h3, #divImgTrad4 .h3 {
       text-align: center; } }
 
-#bodyInt {
-  height: 100%; }
-
 .headerInt {
   background-image: url(../img/fondo_Interpretacion.jpg);
   height: 86vh;
