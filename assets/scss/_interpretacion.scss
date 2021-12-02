@@ -140,7 +140,14 @@
                 width: 70%;
                 height: 100%;
                 margin-bottom: 3vh;
+
+                .contenedor1__h3, .contenedor2__h3,  .contenedor3__h3 {
+                    font-size: 2em;
+                }
+                .contenedor1__p, .contenedor2__p,  .contenedor3__p {
+                    font-size: 1.5em;
             }
+        }
 
             #imgInt {
                 display: none;

@@ -8521,6 +8521,10 @@ footer {
     width: 70%;
     height: 100%;
     margin-bottom: 3vh; }
+    .contenedor1 .contenedor1__h3, .contenedor1 .contenedor2__h3, .contenedor1 .contenedor3__h3, .contenedor2 .contenedor1__h3, .contenedor2 .contenedor2__h3, .contenedor2 .contenedor3__h3, .contenedor3 .contenedor1__h3, .contenedor3 .contenedor2__h3, .contenedor3 .contenedor3__h3 {
+      font-size: 2em; }
+    .contenedor1 .contenedor1__p, .contenedor1 .contenedor2__p, .contenedor1 .contenedor3__p, .contenedor2 .contenedor1__p, .contenedor2 .contenedor2__p, .contenedor2 .contenedor3__p, .contenedor3 .contenedor1__p, .contenedor3 .contenedor2__p, .contenedor3 .contenedor3__p {
+      font-size: 1.5em; }
   #imgInt {
     display: none; } }
 
