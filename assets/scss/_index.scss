@@ -93,6 +93,20 @@
     padding-bottom: 1em;
 }
 
+@media only screen and (max-width:1199px) {
+    .nav-links li a:before {
+        display: none;
+    }
+    
+    .navRedesUl{
+        display: none;
+    }
+
+    .contenedorNav1 {
+        width: $w-100;
+    }
+}
+
     // QUERY +992px
     @media only screen and (min-width: 992px) {
         .anim-typewriter {
@@ -106,18 +120,6 @@
 
         // QUERY 769-991px
 @media only screen and (max-width: 991px) {
-    .nav-links li a:before {
-        display: none;
-    }
-    
-    .navRedesUl{
-        display: none;
-    }
-    
-    .contenedorNav1 {
-        width: $w-100;
-    }
-
     .line-1 {
         font-size: 1em;
     }
