@@ -7826,7 +7826,7 @@ textarea.form-control-lg {
   border-color: #337bc4;
   font-weight: bold;
   border-radius: 5px;
-  box-shadow: 3px 4px 0px 0px #1564ad;
+  box-shadow: 3px 4px 0px 0px #1f15ad;
   text-shadow: 0px 1px 0px #528ecc;
   background: linear-gradient(#79bbff, #378de5); }
 
@@ -8019,7 +8019,7 @@ footer {
   font-weight: 700;
   font-size: 5em;
   font-family: 'lora', serif;
-  text-shadow: 5px 5px 10px #000; }
+  text-shadow: 2px 2px 6px #000; }
 
 .index__frase {
   color: black;
@@ -8053,8 +8053,8 @@ footer {
 .aptitudes {
   border-style: 1px solid black;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 13px 2px #000000;
-  box-shadow: 0px 0px 13px 2px #000000;
+  -webkit-box-shadow: 0px 0px 5px 1px #000000;
+  box-shadow: 0px 0px 5px 1px #000000;
   border-width: 0.5rem;
   border-color: black;
   box-sizing: border-box;
@@ -8165,7 +8165,7 @@ footer {
   font-weight: 700;
   font-size: 5em;
   font-family: 'lora', serif;
-  text-shadow: 5px 5px 10px #000; }
+  text-shadow: 2px 2px 6px #000; }
 
 .bodyContacto {
   background-image: url(../img/fondo_Contacto.jpg);
@@ -8187,8 +8187,8 @@ footer {
 .fieldContacto {
   border-style: 1px solid black;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 13px 2px #000000;
-  box-shadow: 0px 0px 13px 2px #000000;
+  -webkit-box-shadow: 0px 0px 5px 1px #000000;
+  box-shadow: 0px 0px 5px 1px #000000;
   border-width: 0.5rem;
   border-color: black;
   box-sizing: border-box;
@@ -8351,11 +8351,12 @@ footer {
   font-weight: 700;
   font-size: 5em;
   font-family: 'lora', serif;
-  text-shadow: 5px 5px 10px #000; }
+  text-shadow: 2px 2px 6px #000; }
 
 .general__h3 {
   font-size: 1.5em;
-  color: #a488bc; }
+  color: #a488bc;
+  padding-top: 1%; }
 
 .general__p {
   font-size: 1.1em; }
@@ -8363,8 +8364,8 @@ footer {
 #divImgTrad1, #divImgTrad2, #divImgTrad3, #divImgTrad4 {
   border-style: 1px solid black;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 13px 2px #000000;
-  box-shadow: 0px 0px 13px 2px #000000;
+  -webkit-box-shadow: 0px 0px 5px 1px #000000;
+  box-shadow: 0px 0px 5px 1px #000000;
   border-width: 0.5rem;
   border-color: black;
   box-sizing: border-box;
@@ -8423,7 +8424,7 @@ footer {
   font-weight: 700;
   font-size: 5em;
   font-family: 'lora', serif;
-  text-shadow: 5px 5px 10px #000; }
+  text-shadow: 2px 2px 6px #000; }
 
 #imgInt {
   width: 100%;
@@ -8470,8 +8471,8 @@ footer {
 .contenedor1, .contenedor2, .contenedor3 {
   border-style: 1px solid black;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 13px 2px #000000;
-  box-shadow: 0px 0px 13px 2px #000000;
+  -webkit-box-shadow: 0px 0px 5px 1px #000000;
+  box-shadow: 0px 0px 5px 1px #000000;
   border-width: 0.5rem;
   border-color: black;
   box-sizing: border-box;
@@ -8566,7 +8567,7 @@ footer {
     font-weight: 700;
     font-size: 5em;
     font-family: 'lora', serif;
-    text-shadow: 5px 5px 10px #000; }
+    text-shadow: 2px 2px 6px #000; }
 
 .pregunta1, .pregunta2, .pregunta3 {
   margin-left: 1em; }
@@ -8608,16 +8609,14 @@ footer {
     display: none; } }
 
 .imgError {
-  width: 40%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  width: 40%; }
 
 #text_error {
   font-family: "roboto", sans-serif;
   color: #8783dc;
   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-  margin: 0; }
+  margin: 0;
+  font-weight: 700; }
 
 @media only screen and (max-width: 1500px) {
   .imgError {
@@ -8633,3 +8632,23 @@ footer {
   .imgError {
     width: 100%;
     margin: 6vh 0; } }
+
+.bodyGracias {
+  background-image: url(../img/fondo_Gracias.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.headerGracias {
+  height: 80vh; }
+
+.h1Gracias {
+  font-family: "roboto", sans-serif;
+  color: #8783dc;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  margin: 0;
+  font-weight: 700; }
+
+.pGracias {
+  font-family: "roboto", sans-serif;
+  color: #8783dc;
+  font-weight: 700; }

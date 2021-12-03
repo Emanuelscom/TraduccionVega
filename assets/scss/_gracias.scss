@@ -1,0 +1,23 @@
+.bodyGracias {
+    background-image: url(../img/fondo_Gracias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerGracias {
+    height: 80vh;
+}
+
+.h1Gracias {
+    font-family: $secondFont;
+    color: #8783dc;
+    text-shadow: $textBorder;
+    margin: 0;
+    font-weight: 700;
+}
+
+.pGracias {
+    font-family: $secondFont;
+    color: #8783dc;
+    font-weight: 700;
+}

@@ -14,7 +14,7 @@ $warning:       #a84094;
 $danger:        #06d8bc;
 $light:         #f7f3fd;
 $dark:          #5f06aa;
-$textShadow:    5px 5px 10px #000;
+$textShadow:    2px 2px 6px #000;
 $textBorder:    2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 
 // medidas
@@ -39,8 +39,8 @@ $imgSmall: 96px;
 @mixin borderShadow {
     border-style: 1px solid black;
     border-radius: 4px;
-    -webkit-box-shadow: 0px 0px 13px 2px #000000; 
-    box-shadow: 0px 0px 13px 2px #000000;
+    -webkit-box-shadow: 0px 0px 5px 1px #000000; 
+    box-shadow: 0px 0px 5px 1px #000000;
     border-width: 0.5rem;
     border-color: black;
     box-sizing: border-box;
@@ -57,7 +57,7 @@ $imgSmall: 96px;
     border-color:#337bc4;
     font-weight:bold;
     border-radius: 5px;
-    box-shadow: 3px 4px 0px 0px #1564ad;
+    box-shadow: 3px 4px 0px 0px #1f15ad;
     text-shadow: 0px 1px 0px #528ecc;
     background:linear-gradient(#79bbff, #378de5);
 }

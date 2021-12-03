@@ -1,9 +1,6 @@
 // Pagina de error
 .imgError {
     width: 40%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 #text_error {
@@ -11,6 +8,7 @@
     color: #8783dc;
     text-shadow: $textBorder;
     margin: 0;
+    font-weight: 700;
 }
 
 @media only screen and (max-width: 1500px) {
