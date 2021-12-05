@@ -8267,8 +8267,7 @@ footer {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 4;
-  padding: 0 10%;
-  text-align: center; }
+  padding: 0 10%; }
 
 .divInput8 {
   grid-column-start: 2;
@@ -8324,8 +8323,7 @@ footer {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 7;
-    padding: 0;
-    text-align: start; }
+    padding: 0; }
   .divInput8 {
     grid-column-start: 1;
     grid-column-end: 5;
