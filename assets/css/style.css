@@ -8267,7 +8267,8 @@ footer {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 4;
-  padding: 0 10%; }
+  padding: 0 10%;
+  text-align: center; }
 
 .divInput8 {
   grid-column-start: 2;
@@ -8323,7 +8324,8 @@ footer {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 7;
-    padding: 0; }
+    padding: 0;
+    text-align: start; }
   .divInput8 {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -8337,7 +8339,9 @@ footer {
   .section1__input--file {
     font-size: 1.5vh; }
   .section1__form {
-    width: 85%; } }
+    width: 85%; }
+  .divInput7 {
+    text-align: start; } }
 
 .headerTrad {
   background-image: url(../img/fondo_Traduccion.jpg);
