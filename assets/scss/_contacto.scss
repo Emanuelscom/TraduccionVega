@@ -44,7 +44,7 @@
 .section1__input--w90 {
     width: 90%;
     outline: 0;
-    border: 1px solid  #64669d ;
+    border: 1px solid  #263666 ;
     border-style: double;
     border-width: 0.3em;
     background: transparent;
@@ -138,6 +138,8 @@
     margin-bottom: 1vh;
     font-weight: 400;
     font-size: 1.7vh;
+    border-width:1px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 991px) {

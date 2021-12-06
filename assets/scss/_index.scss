@@ -93,6 +93,10 @@
     padding-bottom: 1em;
 }
 
+.indexCancel, .indexSubmit{
+    width: 40%;
+}
+
 @media only screen and (max-width:1199px) {
     .nav-links li a:before {
         display: none;

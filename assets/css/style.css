@@ -7821,11 +7821,12 @@ textarea.form-control-lg {
   font-family: Arial;
   width: 230px;
   height: 50px;
+  font-weight: bold;
   border-width: 1px;
+  border-radius: 5px;
+  text-decoration: none;
   color: #E1E4EA;
   border-color: #1f2f47;
-  font-weight: bold;
-  border-radius: 5px;
   box-shadow: 3px 4px 0px 0px #23395e;
   text-shadow: 0px 1px 0px #263666;
   background: linear-gradient(#2e466e, #415989); }
@@ -7833,6 +7834,27 @@ textarea.form-control-lg {
 .buttonClass:hover {
   background: linear-gradient(#415989, #2e466e);
   color: #C3CAD5; }
+
+.buttonColor {
+  box-shadow: 2px 2px 0px 0px #23395e;
+  text-shadow: 0px 1px 0px #263666;
+  background: linear-gradient(#2e466e, #415989);
+  color: #fff;
+  border-color: #1f2f47; }
+
+.buttonColor:hover {
+  background: linear-gradient(#415989, #2e466e);
+  border-color: #1f2f47; }
+
+.cancelColor {
+  box-shadow: 2px 2px 0px 0px #6c757d;
+  text-shadow: 0px 1px 0px #6c757d;
+  background: linear-gradient(#6c757d, #979797);
+  color: #fff;
+  border-color: #565d64; }
+
+.cancelColor:hover {
+  background: linear-gradient(#979797, #6c757d); }
 
 .more {
   transition: transform 1s ease, opacity 1s ease;
@@ -7982,6 +8004,8 @@ footer {
     color: #e7e7e7; }
   footer .h4Copyright {
     color: #e7e7e7; }
+  footer .aCopy {
+    text-decoration: none; }
   footer .imgFooter {
     width: 3.5em; }
 
@@ -8088,6 +8112,9 @@ footer {
 .form1__label--archivos {
   font-size: 0.8em;
   padding-bottom: 1em; }
+
+.indexCancel, .indexSubmit {
+  width: 40%; }
 
 @media only screen and (max-width: 1199px) {
   .nav-links li a:before {
@@ -8206,7 +8233,7 @@ footer {
 .section1__input--w90 {
   width: 90%;
   outline: 0;
-  border: 1px solid  #64669d;
+  border: 1px solid  #263666;
   border-style: double;
   border-width: 0.3em;
   background: transparent;
@@ -8285,7 +8312,9 @@ footer {
   cursor: pointer;
   margin-bottom: 1vh;
   font-weight: 400;
-  font-size: 1.7vh; }
+  font-size: 1.7vh;
+  border-width: 1px;
+  border-radius: 5px; }
 
 @media only screen and (max-width: 991px) {
   .headerCont__h1--titlePrimary {
