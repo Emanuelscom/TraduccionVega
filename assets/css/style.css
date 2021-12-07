@@ -8105,7 +8105,9 @@ footer {
   width: 50%; }
 
 .form1__h3 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  margin: 0;
+  padding-bottom: 0.5em; }
 
 .form1__label--archivos {
   font-size: 0.8em;
