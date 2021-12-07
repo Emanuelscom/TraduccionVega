@@ -87,7 +87,7 @@
 .form1__h3 {
     font-size: 1.3em;
     margin: 0;
-    padding-bottom: 0.5em;
+    padding-bottom: 1vh;
 }
 
 .form1__label--archivos {
@@ -201,6 +201,10 @@
 
     .formIndex {
         width: 80%;
+    }
+
+    .form1__h3 {
+        padding-bottom: 1.5vh;
     }
 
     .form1__h3, .form-label, .form-control {
