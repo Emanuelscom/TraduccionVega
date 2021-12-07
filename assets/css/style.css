@@ -8025,7 +8025,7 @@ footer {
   .h4Copyright {
     font-size: 1em; } }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 650px) {
   .h4Footer {
     display: none; } }
 
@@ -8548,10 +8548,11 @@ footer {
   .tiposInt__div2 {
     display: flex;
     flex-direction: column; }
+  .contenedor1, .contenedor2 {
+    margin-bottom: 3vh; }
   .contenedor1, .contenedor2, .contenedor3 {
     width: 70%;
-    height: 100%;
-    margin-bottom: 3vh; }
+    height: 100%; }
     .contenedor1 .contenedor1__h3, .contenedor1 .contenedor2__h3, .contenedor1 .contenedor3__h3, .contenedor2 .contenedor1__h3, .contenedor2 .contenedor2__h3, .contenedor2 .contenedor3__h3, .contenedor3 .contenedor1__h3, .contenedor3 .contenedor2__h3, .contenedor3 .contenedor3__h3 {
       font-size: 2em; }
     .contenedor1 .contenedor1__p, .contenedor1 .contenedor2__p, .contenedor1 .contenedor3__p, .contenedor2 .contenedor1__p, .contenedor2 .contenedor2__p, .contenedor2 .contenedor3__p, .contenedor3 .contenedor1__p, .contenedor3 .contenedor2__p, .contenedor3 .contenedor3__p {
@@ -8578,10 +8579,11 @@ footer {
   .tiposInt__div2 {
     display: flex;
     flex-direction: column; }
+  .contenedor1, .contenedor2 {
+    margin-bottom: 5vh; }
   .contenedor1, .contenedor2, .contenedor3 {
     width: 90%;
-    height: 100%;
-    margin-bottom: 5vh; }
+    height: 100%; }
   #imgInt {
     display: none; } }
 
