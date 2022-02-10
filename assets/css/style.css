@@ -8036,15 +8036,8 @@ footer {
   background-repeat: no-repeat;
   background-position: top; }
 
-.index__h1--titlePrimary {
-  color: #a84094;
-  text-align: center;
-  font-weight: 700;
-  font-size: 5em;
-  font-family: 'lora', serif;
-  text-shadow: 2px 2px 6px #000; }
-
 .index__frase {
+  margin-top: 5%;
   color: black;
   text-align: center;
   font-size: 1.5em;
@@ -8154,8 +8147,6 @@ footer {
     width: 70%; } }
 
 @media only screen and (max-width: 768px) {
-  .index__h1--titlePrimary {
-    font-size: 4em; }
   #caja1 {
     height: 20%; }
   #contenedorSect {
@@ -8168,8 +8159,6 @@ footer {
     margin: 5% 0; } }
 
 @media only screen and (max-width: 576px) {
-  .index__h1--titlePrimary {
-    font-size: 2.4em; }
   .anim-typewriter {
     display: none; }
   .caja1__h2 {
