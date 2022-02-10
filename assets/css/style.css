@@ -8416,6 +8416,9 @@ footer {
   padding: 0.5em 0;
   width: 100%; }
 
+.parrafoServ {
+  font-size: 1.1em; }
+
 #serviciosMain {
   color: #fff;
   background-color: #2e363f; }
