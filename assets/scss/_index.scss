@@ -24,6 +24,12 @@
     font-family: 'lora', serif;
 }
 
+.index__frase2 {
+    visibility:hidden;
+    padding: 0;
+    margin: 0;
+}
+
 // Sections
 #contenedorSect {
     background-color: $info;
@@ -175,6 +181,13 @@
     @media only screen and (max-width: 672px) {
         .anim-typewriter {
             display: none;
+        }
+
+        .index__frase2 {
+            visibility: visible;
+            text-align: center;
+            padding: 5% 5% 0 5%;
+            font-size: 1.1em;
         }
     
         .aptitudes {

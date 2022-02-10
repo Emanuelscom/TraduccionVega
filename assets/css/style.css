@@ -8021,7 +8021,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .h4Footer {
-    font-size: 1em; }
+    font-size: 0.6em; }
   .h4Copyright {
     font-size: 1em; } }
 
@@ -8042,6 +8042,11 @@ footer {
   text-align: center;
   font-size: 1.5em;
   font-family: 'lora', serif; }
+
+.index__frase2 {
+  visibility: hidden;
+  padding: 0;
+  margin: 0; }
 
 #contenedorSect {
   background-color: #2e3842;
@@ -8155,6 +8160,11 @@ footer {
 @media only screen and (max-width: 672px) {
   .anim-typewriter {
     display: none; }
+  .index__frase2 {
+    visibility: visible;
+    text-align: center;
+    padding: 5% 5% 0 5%;
+    font-size: 1.1em; }
   .aptitudes {
     margin: 5% 0; } }
 
@@ -8434,8 +8444,16 @@ footer {
   #divImgTrad1, #divImgTrad2, #divImgTrad3, #divImgTrad4 {
     flex-direction: column;
     padding: 0 5%; }
+    #divImgTrad1 .general__p, #divImgTrad2 .general__p, #divImgTrad3 .general__p, #divImgTrad4 .general__p {
+      text-align: center; }
     #divImgTrad1 h3, #divImgTrad1 .h3, #divImgTrad2 h3, #divImgTrad2 .h3, #divImgTrad3 h3, #divImgTrad3 .h3, #divImgTrad4 h3, #divImgTrad4 .h3 {
       text-align: center; } }
+
+@media only screen and (max-width: 1150px) {
+  .divServ {
+    margin: 0 5%; }
+  .parrafoServ {
+    text-align: center; } }
 
 .headerInt {
   background-image: url(../img/fondo_Interpretacion.jpg);

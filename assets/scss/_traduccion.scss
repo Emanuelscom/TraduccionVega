@@ -84,8 +84,22 @@
         flex-direction: column;
         padding: 0 5%;
 
+        .general__p {
+            text-align: center;
+        }
+
         h3 {
             text-align: center;
         }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .divServ {
+        margin: 0 5%;
+    }
+
+    .parrafoServ {
+        text-align: center;
     }
 }
