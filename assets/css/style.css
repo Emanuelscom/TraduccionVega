@@ -8171,6 +8171,11 @@ footer {
 @media only screen and (max-width: 576px) {
   .anim-typewriter {
     display: none; }
+  .index__frase2 {
+    visibility: visible;
+    text-align: center;
+    padding: 5% 5% 0 5%;
+    font-size: 1.1em; }
   .caja1__h2 {
     font-size: 1.2em; }
   .caja1__parrafo {
