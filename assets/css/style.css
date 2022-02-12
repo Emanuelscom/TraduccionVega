@@ -7909,7 +7909,6 @@ textarea.form-control-lg {
   width: 30px;
   border: 2px solid white;
   position: absolute;
-  left: 50%;
   bottom: 20px;
   border-radius: 50px;
   cursor: pointer; }
@@ -8052,6 +8051,10 @@ footer {
   background-color: #2e3842;
   padding: 2% 10%;
   margin: 0; }
+
+.div__scroll {
+  display: flex;
+  justify-content: center; }
 
 #caja1 {
   color: #fff;
